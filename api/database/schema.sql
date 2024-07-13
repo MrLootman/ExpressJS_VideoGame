@@ -1,0 +1,6 @@
+CREATE TABLE video_game (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(75) NOT NULL,
+    year YEAR NOT NULL,
+    dev_team VARCHAR(40) NOT NULL
+);
